@@ -1,0 +1,29 @@
+body {
+  background-color: #d9ebd1;
+  background-size: cover;
+  min-width: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login img {
+  border-radius: 40px;
+  position: relative;
+  margin-top: 25px;
+}
+.inputs {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  width: 281px;
+  height: center;
+  font-size: 25px;
+  padding-left: 20px;
+  outline: 0;
+  border-radius: 40px;
+  border: 1px solid rgb(185, 185, 185);
+}
