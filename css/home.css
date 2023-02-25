@@ -1,26 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
- *{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background: url(../assets/Eduardo.png);
+    background: url(../assets/Eduardo.png)no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    height: 51vh;
 }
 
 .headerPrincipal{
     display: flex;
+    align-items: center;
     justify-content: end;
 }
-.headerPrincipal p {
+
+.headerDireita p {
     color: black;
-    font-size: 14px;
-    padding: 10px 6px;
     font-weight: 500;
     display: inline-block;
+    padding: 30px 60px 2px 0px;
     font-family: "Montserrat",sans-serif;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+
+.titulo h1{
+    display: flex;
+    margin-top: 10vh;
+    font-weight: 400;
+    text-align: center;
+    justify-content:center;
+    font-size: clamp(6em, 1em + 1vw, 1.5em);
+}
+
+.textoCentral p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: clamp(2em, 1em + 1vw, 1.5em);
+}
+
+.buttonCentral {
+    width: 100vw;
+    height: 4vh;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttonCentral button{
+    height: 50px;
+    width: 180px;
+    margin-top: 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(19, 111, 91);
+    font-family:"Montserrat",sans-serif;
+    border: 2px solid rgb(19, 111, 91);
 }
