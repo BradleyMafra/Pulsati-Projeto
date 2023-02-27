@@ -39,9 +39,11 @@ body {
   color: rgb(31, 184, 77);
 }
 .headerDireita a:hover {
-  height: 30px;
   border-radius: 50px;
-  border: 3px solid rgb(30, 124, 69);
+  outline: 3px solid rgb(30, 124, 69);
+  box-sizing: border-box;
+  padding: 10px 0px 0px 0px;
+  outline-offset: -10px
 }
 /*--div do centro do site, onde fica imagem e os inputs de acesso da parte de registro--*/
 .login {

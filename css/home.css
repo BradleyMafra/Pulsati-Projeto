@@ -20,20 +20,20 @@ body{
 }
 
 .headerDireita a:hover{
-    width: 10px;
     border-radius: 50px;
-    border: 8px solid white;
+    border: 20px solid white;
     background-color: white;
 }
 
 .headerDireita p:hover{
-    width: 10px;
+    text-align: center;
     color: rgb(31, 184, 77);
 }
 
 .headerDireita p {
     color: rgb(18, 65, 54);
     font-weight: 600;
+    text-align: center;
     display: inline-block;
     padding: 30px 60px 2px 0px;
     font-family: "Montserrat",sans-serif;
@@ -99,7 +99,7 @@ body{
 .footerPricipal{
     display: flex;
     justify-content: space-between;
-    padding: 45vh 2vh 0vh 2vh;
+    padding: 38vh 2vh 0vh 2vh;
 }
 
 .footerEsquerda img{
