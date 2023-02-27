@@ -353,7 +353,7 @@ body{
     .footerPricipal{
         display: flex;
         justify-content: space-between;
-        padding: 42vh 1vh 0vh 1vh;
+        padding: 40vh 1vh 0vh 1vh;
     }
 
     .footerEsquerda img{
