@@ -1,13 +1,19 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 =======
+=======
+>>>>>>> Stashed changes
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 /*---parte do corpo do site, onde adicionei fundo todo em um verde claro--*/
@@ -16,17 +22,26 @@ body {
   background-size: cover;
   min-width: 100vh;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes
 }
 
 /*--parte de cima do site--*/
-.headerPrincipal{
-    display: flex;
-    align-items: center;
-    justify-content: end;
+.headerPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 /*--parte de cima do site onde fica localizado os links--*/
 .headerDireita p {
+<<<<<<< Updated upstream
     color: black;
     font-weight: 500;
     display: inline-block;
@@ -50,6 +65,8 @@ body {
 }
 /*--parte de cima do site onde fica localizado os links--*/
 .headerDireita p {
+=======
+>>>>>>> Stashed changes
   color: black;
   font-weight: 500;
   display: inline-block;
@@ -57,6 +74,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 /*--div do centro do site, onde fica imagem e os inputs de acesso da parte de registro--*/
 .login {
@@ -70,7 +90,11 @@ body {
   border-radius: 0px;
   position: relative;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   height:auto
+=======
+  height: 100vh;
+>>>>>>> Stashed changes
 =======
   height: 100vh;
 >>>>>>> Stashed changes
@@ -81,10 +105,18 @@ body {
   flex-direction: column;
   display: flex;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 }
 /*--configuração do tamanho, bordas e etc dos inputs--*/
 .inputs input{
+=======
+  justify-content: center;
+  align-items: center;
+}
+/*--configuração do tamanho, bordas e etc dos inputs--*/
+.inputs input {
+>>>>>>> Stashed changes
 =======
   justify-content: center;
   align-items: center;
@@ -100,13 +132,18 @@ body {
   border-radius: 40px;
   border: 1px solid rgb(185, 185, 185);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   opacity: 0.5;
+=======
+  opacity: 0.2;
+>>>>>>> Stashed changes
   margin-top: 20px;
+  background-color: black;
+  color: white;
 
-/*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
-}.inputs input:hover{
-  opacity: 1.0;
+  /*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
 }
+<<<<<<< Updated upstream
 input:focus {
   opacity: 1.0;
 =======
@@ -117,6 +154,8 @@ input:focus {
 
   /*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
 }
+=======
+>>>>>>> Stashed changes
 .inputs input:hover {
   opacity: 1;
   background-color: white;
@@ -157,11 +196,18 @@ input:focus {
   outline: 0;
   margin-top: 20px;
   text-decoration: none;
+<<<<<<< Updated upstream
+=======
+  color: black;
+>>>>>>> Stashed changes
   margin-top: 20px;
   opacity: 1;
   background-color: #f7fcf5;
   color: black;
   box-shadow: 5px 5px 5px gray;
+<<<<<<< Updated upstream
   border-radius: 40px;
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
