@@ -21,13 +21,13 @@ body{
 
 .headerDireita a:hover{
     border-radius: 50px;
-    border: 20px solid white;
     background-color: white;
 }
 
 .headerDireita p:hover{
     text-align: center;
     color: rgb(31, 184, 77);
+    height: 2vh;
 }
 
 .headerDireita p {
@@ -57,7 +57,9 @@ body{
 .textoCentral p{
     display: flex;
     text-align: center;
-    color: rgb(39, 77, 68);
+    color: rgb(18, 139, 73);
+    margin-left: 25vw;
+    width: 50vw;
     justify-content: center;
     font-size: clamp(2em, 1em + 1vw, 1.5em);
 }
@@ -177,6 +179,84 @@ body{
 }
 
 /* QUERYS */
+
+@media screen and (max-width: 2400px) {
+    body {
+        font-size: 100%;
+    }
+    
+    .buttonCentral button{
+        height: 35px;
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    .buttonCentral a{
+        margin-top: 15px;
+    }
+    
+    .headerDireita p {
+        padding: 30px 20px 2px 0px;
+    }
+
+    .titulo h1{
+        font-weight: 600;
+        font-size: clamp(4em, 1em + 1vw, 1.5em);
+    }
+
+    .textoCentral p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: clamp(2.2em, 1em + 1vw, 1.5em);
+    }
+
+    .footerPricipal{
+        padding: 30vh 2vh 0vh 2vh;
+    }
+    
+    .footerEsquerda img{
+        height: 3vh;
+    }
+    .footerEsquerda p{
+        height: 4vh;
+        width: 10vw;
+    }
+
+    .membersResgistered{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    .natureDestination{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    .umDosQuatro{
+        padding-left: 10px;
+    }
+    
+    .professionalTrainer{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    .cincoQuatro{
+        padding-left: 10px;
+    }
+    
+    .k{
+        font-weight: 300;
+    }
+    .footerCentral ul {
+        height: 5vh;
+        width: 30vw;
+        font-size: 30px;
+    }
+  }
 
 @media screen and (max-width: 1400px) {
     body {
