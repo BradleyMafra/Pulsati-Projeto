@@ -20,12 +20,14 @@ body{
 }
 
 .headerDireita a:hover{
+    width: 10px;
     border-radius: 50px;
     border: 8px solid white;
     background-color: white;
 }
 
 .headerDireita p:hover{
+    width: 10px;
     color: rgb(31, 184, 77);
 }
 
@@ -351,7 +353,7 @@ body{
     .footerPricipal{
         display: flex;
         justify-content: space-between;
-        padding: 30vh 1vh 0vh 1vh;
+        padding: 42vh 1vh 0vh 1vh;
     }
 
     .footerEsquerda img{
