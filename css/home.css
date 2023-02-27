@@ -10,7 +10,7 @@ body{
     background: url(../assets/background.png)no-repeat;
     background-position: center;
     background-size: cover;
-    height: 51vh;
+    height: 100vh;
 }
 
 .headerPrincipal{
@@ -19,8 +19,19 @@ body{
     justify-content: end;
 }
 
+.headerDireita a:hover{
+    text-align: center;
+    border-radius: 50px;
+    border: 8px solid white;
+    background-color: white;
+}
+
+.headerDireita p:hover{
+    color: rgb(38, 119, 101);
+}
+
 .headerDireita p {
-    color: black;
+    color: rgb(18, 65, 54);
     font-weight: 500;
     display: inline-block;
     padding: 30px 60px 2px 0px;
@@ -34,12 +45,18 @@ body{
     font-weight: 400;
     text-align: center;
     justify-content:center;
+    color: rgb(26, 97, 82);
     font-size: clamp(6em, 1em + 1vw, 1.5em);
+}
+
+.titulo h1 b{
+    color: rgb(29, 75, 65);
 }
 
 .textoCentral p{
     display: flex;
     text-align: center;
+    color: rgb(39, 77, 68);
     justify-content: center;
     font-size: clamp(2em, 1em + 1vw, 1.5em);
 }
@@ -59,25 +76,123 @@ body{
     margin-top: 30px;
     font-weight: 600;
     border-radius: 50px;
-    background-color: white;
+    background-color: rgb(214, 253, 237);
     color: rgb(19, 111, 91);
     font-family:"Montserrat",sans-serif;
     border: 2px solid rgb(19, 111, 91);
 }
 
-@media screen and (max-width: 1366px) {
+.buttonCentral button:hover{
+    background-color: white;
+}
+
+.footerPricipal{
+    display: flex;
+    justify-content: space-between;
+    padding: 45vh 0vh 0vh 4vh;
+}
+
+.footerEsquerda img{
+    height: 3vh;
+    margin-left: 5px;
+}
+
+.footerEsquerda p{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    opacity: 100px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: start;
+    background: rgba(0, 0, 0, 0.534);
+    font-family: "Montserrat",sans-serif;
+}
+
+.footerDireita{
+    display: flex;
+    justify-content: start;
+}
+
+.footerCentral ul{
+    height: 40px;
+    width: 350px;
+    display: flex;
+    opacity: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    padding-left: 10px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: start;
+    background: rgba(0, 0, 0, 0.534);
+    font-family: "Montserrat",sans-serif;
+}
+
+.membersResgistered{
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.natureDestination{
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.umDosQuatro{
+    padding-left: 10px;
+}
+
+.professionalTrainer{
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.cincoQuatro{
+    padding-left: 10px;
+}
+
+.k{
+    font-weight: 300;
+}
+
+.footerDireita p{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1500px) {
     body {
-      font-size: 60%;
+      font-size: 50%;
     }
+
     .buttonCentral button{
-        height: 40px;
-        width: 160px;
+        height: 35px;
+        width: 150px;
+        margin-top: 15px;
     }
+
+    .buttonCentral a{
+        margin-top: 15px;
+    }
+
     .headerDireita p {
-        padding: 30px 40px 2px 0px;
+        padding: 30px 20px 2px 0px;
     }
+
     .titulo h1{
         font-weight: 600;
-        font-size: clamp(5em, 1em + 1vw, 1.5em);
+        font-size: clamp(4em, 1em + 1vw, 1.5em);
+    }
+
+    .textoCentral p{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: clamp(2.2em, 1em + 1vw, 1.5em);
     }
   }
