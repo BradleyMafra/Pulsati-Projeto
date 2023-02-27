@@ -21,6 +21,7 @@ body{
 
 .headerDireita a:hover{
     border-radius: 50px;
+    border: 10px solid white;
     background-color: white;
 }
 
@@ -417,8 +418,9 @@ body{
         font-size: 30px;
     }
     .textoCentral p{
+        margin: 10px 10px 10px 10px;
+        width: 80vw;
         font-size: 20px;
-        margin-top: 6vh;
     }
 
     .buttonCentral{
