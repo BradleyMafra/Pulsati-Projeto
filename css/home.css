@@ -7,7 +7,7 @@
 }
 
 body{
-    background: url(../assets/Eduardo.png)no-repeat;
+    background: url(../assets/background.png)no-repeat;
     background-position: center;
     background-size: cover;
     height: 51vh;
@@ -64,3 +64,20 @@ body{
     font-family:"Montserrat",sans-serif;
     border: 2px solid rgb(19, 111, 91);
 }
+
+@media screen and (max-width: 1366px) {
+    body {
+      font-size: 60%;
+    }
+    .buttonCentral button{
+        height: 40px;
+        width: 160px;
+    }
+    .headerDireita p {
+        padding: 30px 40px 2px 0px;
+    }
+    .titulo h1{
+        font-weight: 600;
+        font-size: clamp(5em, 1em + 1vw, 1.5em);
+    }
+  }
