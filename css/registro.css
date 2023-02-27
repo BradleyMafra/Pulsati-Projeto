@@ -1,13 +1,21 @@
+<<<<<<< Updated upstream
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+>>>>>>> Stashed changes
 }
 /*---parte do corpo do site, onde adicionei fundo todo em um verde claro--*/
 body {
   background-color: #d9ebd1;
   background-size: cover;
   min-width: 100vh;
+<<<<<<< Updated upstream
   
 }
 
@@ -26,6 +34,30 @@ body {
     font-family: "Montserrat",sans-serif;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
 } 
+=======
+}
+
+/*--parte de cima do site--*/
+.headerPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+/*--parte de cima do site onde fica localizado os links--*/
+.headerDireita p {
+  color: black;
+  font-weight: 500;
+  display: inline-block;
+  padding: 30px 60px 2px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+>>>>>>> Stashed changes
 /*--div do centro do site, onde fica imagem e os inputs de acesso da parte de registro--*/
 .login {
   display: flex;
@@ -37,17 +69,29 @@ body {
 .login img {
   border-radius: 0px;
   position: relative;
+<<<<<<< Updated upstream
   height:auto
+=======
+  height: 100vh;
+>>>>>>> Stashed changes
 }
 /*--configuração de centralização dos inputs de registro--*/
 .inputs {
   position: absolute;
   flex-direction: column;
   display: flex;
+<<<<<<< Updated upstream
 
 }
 /*--configuração do tamanho, bordas e etc dos inputs--*/
 .inputs input{
+=======
+  justify-content: center;
+  align-items: center;
+}
+/*--configuração do tamanho, bordas e etc dos inputs--*/
+.inputs input {
+>>>>>>> Stashed changes
   width: 281px;
   height: 25px;
   font-size: 15px;
@@ -55,6 +99,7 @@ body {
   outline: 0;
   border-radius: 40px;
   border: 1px solid rgb(185, 185, 185);
+<<<<<<< Updated upstream
   opacity: 0.5;
   margin-top: 20px;
 
@@ -64,4 +109,59 @@ body {
 }
 input:focus {
   opacity: 1.0;
+=======
+  opacity: 0.2;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+
+  /*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
+}
+.inputs input:hover {
+  opacity: 1;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 5px gray;
+}
+.inputs input:focus {
+  opacity: 1;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 5px gray;
+}
+.inputs button {
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+
+  outline: 0;
+  border-radius: 40px;
+  border: 1px solid rgb(185, 185, 185);
+
+  margin-top: 20px;
+  background-color: white;
+}
+.inputs button:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+.inputs a {
+  font-size: 15px;
+  outline: 0;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+.inputs a:hover {
+  font-size: 15px;
+  outline: 0;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  opacity: 1;
+  background-color: #f7fcf5;
+  color: black;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 40px;
+>>>>>>> Stashed changes
 }
