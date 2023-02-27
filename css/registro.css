@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,14 +25,24 @@ body {
 }
 /*--parte de cima do site onde fica localizado os links--*/
 .headerDireita p {
-  color: black;
-  font-weight: 500;
+  color: rgb(18, 65, 54);
+  font-weight: 600;
   display: inline-block;
-  padding: 30px 60px 2px 0px;
+  padding: 30px 40px 0px 0px;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1em, 1em + 1vw, 1.5em);
+  align-items: center;
+  justify-content: center;
 }
 
+.headerDireita p:hover {
+  color: rgb(31, 184, 77);
+}
+.headerDireita a:hover {
+  height: 30px;
+  border-radius: 50px;
+  border: 3px solid rgb(30, 124, 69);
+}
 /*--div do centro do site, onde fica imagem e os inputs de acesso da parte de registro--*/
 .login {
   display: flex;
@@ -104,12 +115,14 @@ input:focus {
   height: 25px;
   font-size: 15px;
   outline: 0;
+  color: rgb(26, 97, 82);
+  background-color: rgb(214, 253, 237);
   border-radius: 40px;
   border: 1px solid rgb(185, 185, 185);
   margin-top: 20px;
-  background-color: white;
 }
 .inputs button:hover {
+  background-color: white;
   box-shadow: 0px 0px 5px gray;
 }
 
@@ -121,6 +134,8 @@ input:focus {
   text-decoration: none;
   color: black;
   margin-top: 20px;
+  width: 160px;
+  text-align: center;
 }
 .inputs a:hover {
   font-size: 15px;
@@ -156,7 +171,7 @@ input:focus {
   /*--parte de cima do site onde fica localizado os links--*/
   .headerDireita p {
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     display: inline-block;
     padding: 10px 10px 2px 0px;
     font-family: "Montserrat", sans-serif;
