@@ -89,7 +89,7 @@ body{
 .footerPricipal{
     display: flex;
     justify-content: space-between;
-    padding: 45vh 0vh 0vh 4vh;
+    padding: 45vh 2vh 0vh 2vh;
 }
 
 .footerEsquerda img{
@@ -166,11 +166,13 @@ body{
     font-size: 30px;
 }
 
+/* QUERYS */
+
 @media screen and (max-width: 1400px) {
     body {
-      font-size: 50%;
+        font-size: 50%;
     }
-
+    
     .buttonCentral button{
         height: 35px;
         width: 150px;
@@ -180,7 +182,7 @@ body{
     .buttonCentral a{
         margin-top: 15px;
     }
-
+    
     .headerDireita p {
         padding: 30px 20px 2px 0px;
     }
@@ -191,8 +193,235 @@ body{
     }
 
     .textoCentral p{
+        display: flex;
+        text-align: center;
+        justify-content: center;
         margin-top: 10px;
         font-weight: 400;
         font-size: clamp(2.2em, 1em + 1vw, 1.5em);
     }
+    
+    .membersResgistered{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    
+    .natureDestination{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    
+    .umDosQuatro{
+        padding-left: 10px;
+    }
+    
+    .professionalTrainer{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    
+    .cincoQuatro{
+        padding-left: 10px;
+    }
+    
+    .k{
+        font-weight: 300;
+    }
   }
+
+@media screen and (max-width: 1000px) {
+    .footerPricipal{
+        display: flex;
+        justify-content: space-between;
+        padding: 34vh 1vh 0vh 1vh;
+    }
+
+    .footerEsquerda{
+        margin-top: 8vh;
+    }
+
+    .footerEsquerda img{
+        height: 3vh;
+        margin-left: 4px;
+    }
+    
+    .footerEsquerda p{
+        height: 5vh;
+        width: 22vw;
+        font-size: 12px;
+    }
+
+    .footerCentral ul{
+        margin-top: 8vh;
+        height: 6vh;
+        width: 55vw;
+        font-size: 3vh;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headerDireita p {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 4px 0px 0px;
+    }
+
+    .titulo h1{
+        margin-top: 6vh;
+        font-size: 30px;
+    }
+    .textoCentral p{
+        font-size: 18px;
+        margin-top: 6vh;
+    }
+
+    .buttonCentral button{
+        height: 6vh;
+        width: 30vw;
+    }
+
+    .footerPricipal{
+        display: flex;
+        justify-content: space-between;
+        padding: 33vh 1vh 0vh 1vh;
+    }
+
+    .footerEsquerda{
+        margin-top: 9vh;
+    }
+
+    .footerEsquerda img{
+        height: 2vh;
+        margin-left: 6px;
+    }
+    
+    .footerEsquerda p{
+        height: 3vh;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .footerCentral ul{
+        height: 4vh;
+        width: 60vw;
+        font-size: 3vw;
+        font-size: 3vh;
+        font-weight: 600;
+    }
+    
+    .membersResgistered{
+        font-size: 1.5vw;
+        font-size: 1.5vh;
+        padding-left: 10px;
+    }
+    
+    .natureDestination{
+        font-size: 1.5vw;
+        font-size: 1.5vh;
+        padding-left: 10px;
+    }
+    
+    .umDosQuatro{
+        font-size: 3vw;
+        font-size: 3vh;
+        padding-left: 10px;
+    }
+    
+    .professionalTrainer{
+        font-size: 1.5vw;
+        padding-left: 10px;
+    }
+    
+    .cincoQuatro{
+        padding-left: 10px;
+        font-size: 3vh;
+    }
+    
+    .footerDireita p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headerDireita p {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 4px 0px 0px;
+    }
+
+    .titulo h1{
+        margin-top: 6vh;
+        font-size: 30px;
+    }
+    .textoCentral p{
+        font-size: 18px;
+        margin-top: 6vh;
+    }
+
+    .buttonCentral button{
+        height: 6vh;
+        width: 30vw;
+    }
+
+    .footerPricipal{
+        display: flex;
+        justify-content: space-between;
+        padding: 33vh 1vh 0vh 1vh;
+    }
+
+    .footerEsquerda{
+        margin-top: 9vh;
+    }
+
+    .footerEsquerda img{
+        height: 2vh;
+        margin-left: 6px;
+    }
+    
+    .footerEsquerda p{
+        height: 3vh;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .footerCentral ul{
+        height: 4vh;
+        width: 60vw;
+        font-size: 3vw;
+        font-size: 3vh;
+        font-weight: 600;
+    }
+    
+    .membersResgistered{
+        font-size: 1.5vw;
+        font-size: 1.5vh;
+        padding-left: 10px;
+    }
+    
+    .natureDestination{
+        font-size: 1.5vw;
+        font-size: 1.5vh;
+        padding-left: 10px;
+    }
+    
+    .umDosQuatro{
+        font-size: 3vw;
+        font-size: 3vh;
+        padding-left: 10px;
+    }
+    
+    .professionalTrainer{
+        font-size: 1.5vw;
+        padding-left: 10px;
+    }
+    
+    .cincoQuatro{
+        padding-left: 10px;
+        font-size: 3vh;
+    }
+    
+    .footerDireita p{
+        font-size: 30px;
+    }
+}
