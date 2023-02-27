@@ -364,6 +364,7 @@ body{
     .footerEsquerda p{
         height: 2vh;
         width: 120px;
+        margin-top: 0.5vh;
         font-size: 10px;
     }
 
