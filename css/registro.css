@@ -2,14 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /*---parte do corpo do site, onde adicionei fundo todo em um verde claro--*/
+
 body {
-  background-color: #d9ebd1;
-  background-size: cover;
-  min-width: 100vh;
+  width: 100vw;
+  min-height: 100vh;
 }
-
 /*--parte de cima do site--*/
 .headerPrincipal {
   display: flex;
@@ -20,27 +20,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 9999;
-}
-/*--parte de cima do site onde fica localizado os links--*/
-.headerDireita p {
-  color: black;
-  font-weight: 500;
-  display: inline-block;
-  padding: 30px 60px 2px 0px;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(1em, 1em + 1vw, 1.5em);
-}
-
-/*--parte de cima do site--*/
-.headerPrincipal {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
+  padding: 0px 0px 0px 15px;
 }
 /*--parte de cima do site onde fica localizado os links--*/
 .headerDireita p {
@@ -58,27 +38,21 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 /*--configuração da imagem--*/
 .login img {
-  border-radius: 0px;
-  position: relative;
-  height: auto;
-
   height: 100vh;
-
-  height: 100vh;
+  width: 100vw;
+  /* background-size: auto; */
 }
 /*--configuração de centralização dos inputs de registro--*/
 .inputs {
   position: absolute;
   flex-direction: column;
   display: flex;
-}
-/*--configuração do tamanho, bordas e etc dos inputs--*/
-.inputs input {
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 /*--configuração do tamanho, bordas e etc dos inputs--*/
 .inputs input {
@@ -94,21 +68,17 @@ body {
   outline: 0;
   border-radius: 40px;
   border: 1px solid rgb(185, 185, 185);
-  opacity: 0.5;
-
-  opacity: 0.2;
-
   margin-top: 20px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  filter: blur(50);
+  opacity: 0.8;
 
   /*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
 }
 
 input:focus {
   opacity: 1;
-
-  opacity: 0.2;
   margin-top: 20px;
   background-color: black;
   color: white;
@@ -120,29 +90,30 @@ input:focus {
   opacity: 1;
   background-color: white;
   color: black;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 0px 5px gray;
 }
 .inputs input:focus {
   opacity: 1;
   background-color: white;
   color: black;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 0px 5px gray;
 }
+/*--configuração do botão de registro na parte inferior do site--*/
 .inputs button {
   width: 150px;
   height: 25px;
   font-size: 15px;
-
   outline: 0;
   border-radius: 40px;
   border: 1px solid rgb(185, 185, 185);
-
   margin-top: 20px;
   background-color: white;
 }
 .inputs button:hover {
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 0px 5px gray;
 }
+
+/*--configuração do link para ir para tela de login--*/
 .inputs a {
   font-size: 15px;
   outline: 0;
@@ -156,14 +127,40 @@ input:focus {
   outline: 0;
   margin-top: 20px;
   text-decoration: none;
-
-  color: black;
-
   margin-top: 20px;
-  opacity: 1;
+  filter: blur(50);
+  opacity: 0.8;
   background-color: #f7fcf5;
   color: black;
-  box-shadow: 5px 5px 5px gray;
-
+  box-shadow: 0px 0px 5px gray;
   border-radius: 40px;
+}
+@media screen and (max-width: 500px) {
+  .login img {
+    /* border-radius: 0px; */
+    /* position: relative; */
+    height: 100vh;
+    width: 100vw;
+    /* background-size: auto; */
+  }
+  /*--parte de cima do site--*/
+  .headerPrincipal {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  /*--parte de cima do site onde fica localizado os links--*/
+  .headerDireita p {
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 10px 2px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    border-left: 1px solid black;
+  }
 }
