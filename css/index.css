@@ -328,6 +328,11 @@ body{
     .footerEsquerda p{
         width: 180px;
     }
+    .footerPricipal{
+        display: flex;
+        justify-content: space-between;
+        padding: 30vh 1vh 0vh 1vh;
+    }
   }
 
 @media screen and (min-width: 681px) and (max-width: 900px) {
