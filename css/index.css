@@ -481,6 +481,8 @@ body{
         width: 16rem;
         font-size: 2vw;
         font-size: 2vh;
+        display: flex;
+        align-items: center;
         font-weight: 600;
         margin-top: 15px;
     }
