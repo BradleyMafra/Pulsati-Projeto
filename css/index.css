@@ -217,7 +217,7 @@ body{
     }
 
     .footerPricipal{
-        padding: 40vh 2vh 0vh 2vh;
+        padding: 30vh 2vh 0vh 2vh;
     }
 
     .footerEsquerda img{
@@ -225,9 +225,9 @@ body{
         padding-left: 2px;
     }
     .footerEsquerda p{
-        font-size: 28px;
+        font-size: 34px;
         height: 6vh;
-        width: 16vw;
+        width: 440px;
     }
 
     .membersResgistered{
@@ -261,7 +261,7 @@ body{
         width: 34vw;
         font-size: 50px;
     }
-  }
+}
 
 @media screen and (min-width: 901px) and (max-width: 1500px) {
     body {
@@ -333,7 +333,7 @@ body{
         justify-content: space-between;
         padding: 30vh 1vh 0vh 1vh;
     }
-  }
+}
 
 @media screen and (min-width: 681px) and (max-width: 900px) {
     .headerDireita p {
