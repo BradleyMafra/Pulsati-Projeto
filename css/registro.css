@@ -174,7 +174,7 @@ input:focus {
   .inputs input {
     width: 60vw;
     height: 25px;
-    font-size: 15px;
+    font-size: 5vw;
   }
   .inputs button{
     width: 40vw;
