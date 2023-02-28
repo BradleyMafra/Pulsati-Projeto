@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/* -webkit-
+-moz-
+ -ms-
+  -o- */
+
 *{
     margin: 0;
     padding: 0;
@@ -215,15 +220,16 @@ body{
     }
 
     .footerPricipal{
-        padding: 30vh 2vh 0vh 2vh;
+        padding: 40vh 2vh 0vh 2vh;
     }
-    
+
     .footerEsquerda img{
         height: 3vh;
+        padding-left: 2px;
     }
     .footerEsquerda p{
-        height: 4vh;
-        width: 10vw;
+        height: 6vh;
+        width: 14vw;
     }
 
     .membersResgistered{
@@ -255,7 +261,7 @@ body{
     .footerCentral ul {
         height: 5vh;
         width: 30vw;
-        font-size: 30px;
+        font-size: 20px;
     }
   }
 
@@ -323,89 +329,6 @@ body{
     }
   }
 
-/* @media screen and (max-width: 700px) {
-    .headerDireita p {
-        font-size: 12px;
-        font-weight: 600;
-        padding: 10px 4px 0px 0px;
-    }
-
-    .titulo h1{
-        margin-top: 6vh;
-        font-size: 30px;
-    }
-    .textoCentral p{
-        font-size: 18px;
-        margin-top: 6vh;
-    }
-
-    .buttonCentral button{
-        height: 6vh;
-        width: 30vw;
-    }
-
-    .footerPricipal{
-        display: flex;
-        justify-content: space-between;
-        padding: 33vh 1vh 0vh 1vh;
-    }
-
-    .footerEsquerda{
-        margin-top: 9vh;
-    }
-
-    .footerEsquerda img{
-        height: 2vh;
-        margin-left: 6px;
-    }
-    
-    .footerEsquerda p{
-        height: 3vh;
-        width: 120px;
-        font-size: 10px;
-    }
-
-    .footerCentral ul{
-        height: 4vh;
-        width: 60vw;
-        font-size: 3vw;
-        font-size: 3vh;
-        font-weight: 600;
-    }
-    
-    .membersResgistered{
-        font-size: 1.5vw;
-        font-size: 1.5vh;
-        padding-left: 10px;
-    }
-    
-    .natureDestination{
-        font-size: 1.5vw;
-        font-size: 1.5vh;
-        padding-left: 10px;
-    }
-    
-    .umDosQuatro{
-        font-size: 3vw;
-        font-size: 3vh;
-        padding-left: 10px;
-    }
-    
-    .professionalTrainer{
-        font-size: 1.5vw;
-        padding-left: 10px;
-    }
-    
-    .cincoQuatro{
-        padding-left: 10px;
-        font-size: 3vh;
-    }
-    
-    .footerDireita p{
-        font-size: 30px;
-    }
-} */
-
 @media screen and (max-width: 844px) {
     .headerDireita p {
         font-size: 12px;
@@ -435,7 +358,92 @@ body{
     .footerPricipal{
         display: flex;
         justify-content: space-between;
-        padding: 38vh 1vh 0vh 1vh;
+        padding: 32vh 1vh 0vh 1vh;
+    }
+
+    .footerEsquerda img{
+        height: 1vh;
+        margin-left: 6px;
+    }
+    
+    .footerEsquerda p{
+        height: 2vh;
+        width: 120px;
+        margin-top: 0.5vh;
+        font-size: 10px;
+    }
+
+    .footerCentral ul{
+        height: 3vh;
+        width: 260px;
+        font-size: 2vw;
+        font-size: 2vh;
+        font-weight: 600;
+    }
+    
+    .membersResgistered{
+        font-size: 1vw;
+        font-size: 1vh;
+        padding-left: 5px;
+    }
+    
+    .natureDestination{
+        font-size: 1vw;
+        font-size: 1vh;
+        padding-left: 5px;
+    }
+    
+    .umDosQuatro{
+        font-size: 2vw;
+        font-size: 2vh;
+        padding-left: 5px;
+    }
+    
+    .professionalTrainer{
+        font-size: 1.5vw;
+        padding-left: 5px;
+    }
+    
+    .cincoQuatro{
+        padding-left: 5px;
+        font-size: 2vh;
+    }
+    
+    .footerDireita p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .headerDireita p {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 5px 10px 0px 0px;
+    }
+
+    .titulo h1{
+        margin-top: 6vh;
+        font-size: 30px;
+    }
+    .textoCentral p{
+        margin-left: 12vw;
+        width: 80vw;
+        font-size: 15px;
+    }
+
+    .buttonCentral{
+        margin-top: 4vh;
+    }
+
+    .buttonCentral button{
+        height: 4vh;
+        width: 30vw;
+    }
+
+    .footerPricipal{
+        display: flex;
+        justify-content: space-between;
+        padding: 30vh 1vh 0vh 1vh;
     }
 
     .footerEsquerda img{
