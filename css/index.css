@@ -265,7 +265,7 @@ body{
     }
   }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
     body {
         font-size: 50%;
     }
@@ -358,7 +358,7 @@ body{
     .footerPricipal{
         display: flex;
         justify-content: space-between;
-        padding: 32vh 1vh 0vh 1vh;
+        padding: 30vh 1vh 0vh 1vh;
     }
 
     .footerEsquerda img{
