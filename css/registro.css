@@ -166,7 +166,7 @@ input:focus {
   }
   /*--parte de cima do site onde fica localizado os links--*/
   .headerDireita p {
-    font-size: 9px;
+    font-size:12px;
     font-weight: 600;
     padding: 6px 14px 0px 0px;
 }
