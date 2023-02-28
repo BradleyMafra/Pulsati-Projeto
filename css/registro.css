@@ -30,7 +30,7 @@ body {
   display: inline-block;
   padding: 30px 25px 0px 0px;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(0.4sem, 1em + 1vw, 1.5em);
+  font-size: 1.4vw;
   align-items: center;
   justify-content: center;
 }
@@ -68,7 +68,7 @@ body {
 }
 /*--configuração do tamanho, bordas e etc dos inputs--*/
 .inputs input {
-  width: 281px;
+  width: 28.1vw;
   height: 25px;
   font-size: 15px;
   padding-left: 20px;
@@ -81,8 +81,8 @@ body {
   filter: blur(50);
   opacity: 0.8;
 
-  /*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
 }
+/*--configuração para tirar opacidade dos inputs quando selecionado ou passar mouse por cima--*/
 
 input:focus {
   opacity: 1;
@@ -167,8 +167,16 @@ input:focus {
   }
   /*--parte de cima do site onde fica localizado os links--*/
   .headerDireita p {
-    font-size:12px;
+    font-size: 2vw;
     font-weight: 600;
-    padding: 6px 14px 0px 0px;
-}
+    padding: 6px 1vw 0px 0px;
+  }
+  .inputs input {
+    width: 60vw;
+    height: 25px;
+    font-size: 15px;
+  }
+  .inputs button{
+    width: 40vw;
+  }
 }

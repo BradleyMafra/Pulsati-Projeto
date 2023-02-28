@@ -368,8 +368,8 @@ body{
     }
 
     .buttonCentral button{
-        height: 4vh;
-        width: 30vw;
+        height: 6vh;
+        width: 20vw;
     }
 
     .footerPricipal{
@@ -393,51 +393,55 @@ body{
     }
 
     .footerCentral ul{
-        height: 3vh;
-        width: 48vw;
-        font-size: 2vw;
-        font-size: 2vh;
+        height: 3.5vh;
+        width: 34vw;
+        font-size: 3vw;
+        font-size: 3vh;
         font-weight: 600;
     }
     
     .membersResgistered{
-        font-size: 1vw;
-        font-size: 1vh;
+        font-size: 2vw;
+        font-size: 1.4vh;
         padding-left: 1vw;
     }
     
     .natureDestination{
         font-size: 1vw;
-        font-size: 1vh;
+        font-size: 1.4vh;
         padding-left:  1vw;
     }
     
     .umDosQuatro{
-        font-size: 2vw;
-        font-size: 2vh;
+        font-size: 3vw;
+        font-size: 3vh;
         padding-left:  1vw;
     }
     
     .professionalTrainer{
-        font-size: 1.5vw;
+        font-size: 1vw;
+        font-size: 1.4vh;
         padding-left:  1vw;
     }
     
     .cincoQuatro{
         padding-left:  1vw;
         font-size: 2vh;
+        font-size: 2vw;
+
     }
     
     .footerDireita p{
-        font-size: 30px;
+        font-size: 2vh;
+        font-size: 2vw;
     }
 }
 
 @media screen and (max-width: 680px) {
     .headerDireita p {
-        font-size: 9px;
+        font-size: 2vw;
         font-weight: 600;
-        padding: 6px 14px 0px 0px;
+        padding: 6px 1vw 0px 0px;
     }
 
     .titulo h1{
