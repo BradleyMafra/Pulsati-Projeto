@@ -28,9 +28,9 @@ body {
   color: rgb(18, 65, 54);
   font-weight: 600;
   display: inline-block;
-  padding: 30px 40px 0px 0px;
+  padding: 30px 25px 0px 0px;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(1em, 1em + 1vw, 1.5em);
+  font-size: clamp(0.4sem, 1em + 1vw, 1.5em);
   align-items: center;
   justify-content: center;
 }
