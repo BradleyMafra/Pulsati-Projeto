@@ -166,12 +166,8 @@ input:focus {
   }
   /*--parte de cima do site onde fica localizado os links--*/
   .headerDireita p {
-    color: black;
+    font-size: 9px;
     font-weight: 600;
-    display: inline-block;
-    padding: 10px 10px 2px 0px;
-    font-family: "Montserrat", sans-serif;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
-    border-left: 1px solid black;
-  }
+    padding: 6px 14px 0px 0px;
+}
 }
